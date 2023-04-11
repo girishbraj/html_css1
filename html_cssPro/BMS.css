@@ -1,0 +1,87 @@
+
+
+*{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    background: rgb(46, 49, 71);
+    justify-content: space-between;
+    align-items: center; 
+    padding: 15px 50px;
+}
+.logo{
+
+    display: flex;
+}
+.navbar input{
+    margin-left: 20px;
+    width: 540px;
+    outline: none;
+}
+.navbar a{
+    text-decoration:none ;
+    color: rgb(204, 204, 204);
+    margin-right: 20px;
+}
+.navbar button{
+    border: none;
+    background-color: rgb(248, 68, 100);
+    color: white;
+    padding: 6px 18px; 
+    border-radius: 4px;
+}
+.slide marquee{
+padding: 8px;
+}
+.tittle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+.tittle a{
+    text-decoration: none;
+    color:  rgb(248, 68, 100);
+}
+.movies{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 45px;
+}
+.movies img{
+    height: 340px;
+    width: 210px;
+    border-radius: 10px;
+    
+}
+.movies img:hover{
+    /* transform: translateY(-10px); */
+    transform: scale(1.1);
+    /* transform: rotate(360deg); */
+    transition: 0.7s;
+    
+}
+.navbar1{
+    display: flex;
+    background: rgb(34, 37, 57);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    
+    
+}
+.links1 a{
+    margin-right: 16px;
+    color: rgba(255, 255, 255, 0.491);
+    text-decoration: none;
+}
+.links2 a{
+    margin-left: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+.links1 a:hover{
+    color: white;
+}
